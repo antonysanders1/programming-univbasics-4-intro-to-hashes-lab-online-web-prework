@@ -16,7 +16,7 @@ end
 def id_generator
   # return a hash with a key :id assigned to positive integer
   pioneer = {name: "Grace Hopper"}
-  :name.object_id
+  pioneer.object_id
 end
 
 def my_hash_creator(key, value)
